@@ -13,6 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// ROTA PARA USUÁRIO LOGADO
+
+//Rota feed (
+    Route::get('/', function () {
+        return view('login');
+    })->name('login');
+
+    //Rota grupo
+    Route::get('/grupo', function () {
+    return view('grupo');
+    })->name('grupo');
+
+    //Rota gps
+    Route::get('/gps', function () {
+    return view('gps');
+    })->name('gps');
+
+    //Rota cadastro 
+    Route::get('/cadastro', function () {
+    return view('cadastro');
+    })->name('cadastro');
+
+    //Rota login
+    Route::get('/feed', function () {
+    return view('feed');
+    })->name('feed');
