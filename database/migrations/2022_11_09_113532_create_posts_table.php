@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('_foto_perfils', function (Blueprint $table) {
+        Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->FotoPerfilMidia();
+            $table->integer('id_user');
+            $table->text('mensagem');
+            $table->text('localizacao');
+
         });
     }
 
@@ -27,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_foto_perfils');
+        Schema::dropIfExists('posts');
     }
 };

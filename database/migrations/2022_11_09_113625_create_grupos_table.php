@@ -13,10 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('_post_midia', function (Blueprint $table) {
+        Schema::create('grupos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->PostMidia();
+            $table->string('name');
+            $table->integer('id_user');
+
         });
     }
 
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_post_midia');
+        Schema::dropIfExists('grupos');
     }
 };
