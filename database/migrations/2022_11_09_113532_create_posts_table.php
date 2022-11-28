@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('midia')->nullable();
             $table->integer('id_user');
             $table->text('mensagem');
             $table->text('localizacao');

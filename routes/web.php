@@ -16,30 +16,12 @@ use Illuminate\Support\Facades\Route;
 
 // ROTA PARA USUÁRIO LOGADO
 
-//Rota feed (
+//Rota inicial (
     Route::get('/', function () {
-        return view('login');
-    })->name('login');
+        return view('auth.login');
+    });
 
-    //Rota grupo
-    Route::get('/grupo', function () {
-    return view('grupo');
-    })->name('grupo');
-
-    //Rota gps
-    Route::get('/gps', function () {
-    return view('gps');
-    })->name('gps');
-
-    //Rota cadastro 
-    Route::get('/cadastro', function () {
-    return view('cadastro');
-    })->name('cadastro');
-
-    //Rota login
-    Route::get('/feed', function () {
-    return view('feed');
-    })->name('feed');
+    
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -48,4 +30,25 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+
+    //Rota grupo
+    Route::get('/grupo', function () {
+        return view('grupo');
+        })->name('grupo');
+    
+        //Rota gps
+        Route::get('/gps', function () {
+        return view('gps');
+        })->name('gps');
+    
+        //Rota cadastro 
+        Route::get('/cadastro', function () {
+        return view('cadastro');
+        })->name('cadastro');
+    
+        //Rota feed
+        Route::get('/feed', function () {
+        return view('feed');
+        })->name('feed');
 });
