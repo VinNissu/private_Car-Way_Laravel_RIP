@@ -91,8 +91,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 offset-lg-3 mb-4 border border-0"data-aos="fade-up"
-                    data-aos-duration="2000">
+                <div class="col-lg-6 offset-lg-3 mb-4 border border-0"data-aos="fade-up" data-aos-duration="2000">
 
                     <section class="hero mt-3" data-aos="fade-up">
                         <div class="container">
@@ -106,14 +105,14 @@
                                         <div class="cardbox-heading">
 
 
-                            <!-- START dropdown-->
-                            <div class="dropdown float-right">
-                                <div id="localizacao"><a href="gps.html" id="localizacaovoce"> <span
-                                            class="fw-bold ">SP-BRASIL_MG_TPTPT</span>
-                                    </a></div>
-                                <div>
+                                            <!-- START dropdown-->
+                                            <div class="dropdown float-right">
+                                                <div id="localizacao"><a href="gps.html" id="localizacaovoce"> <span
+                                                            class="fw-bold ">SP-BRASIL_MG_TPTPT</span>
+                                                    </a></div>
+                                                <div>
 
-                                    {{-- <button class="btn btn-flat btn-flat-icon reportar border-0 "
+                                                    {{-- <button class="btn btn-flat btn-flat-icon reportar border-0 "
                                         type="button" data-toggle="dropdown" aria-expanded="true">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                             stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -122,61 +121,92 @@
                                         </svg>
 
                                     </button> --}}
-                                </div>
+                                                </div>
 
-                                <div class="dropdown-menu dropdown-scale dropdown-menu-right" role="menu"
-                                    style="position: absolute; transform: translate3d(-136px, 28px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                </div>
-
-
-
-                            </div>
-                            <!--/ dropdown -->
-                            <div class="media mb-1">
-                                <div class="d-flex mr-3">
-                                    <a href="#"><img id="imagem" class="imagen ms-3"
-                                            src="./imagens/mystery.jpg" alt=""></a>
-                                </div>
-                                <div id="fonte-1" class="media-body">
-                                    <p class="m-1 ms-4">Vini</p>
-                                    <p class="ms-3">Grupo</p>
-                                </div>
-                            </div>
-
-
-                            <!--/ media -->
-                        </div>
+                                                <div class="dropdown-menu dropdown-scale dropdown-menu-right"
+                                                    role="menu"
+                                                    style="position: absolute; transform: translate3d(-136px, 28px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                </div>
 
 
 
-                        <!--/ cardbox-heading -->
+                                            </div>
+                                            <!--/ dropdown -->
+                                            <div class="media mb-1">
+                                                <div class="d-flex mr-3">
+                                                    <a href="#"><img id="imagem" class="imagen ms-3"
+                                                            src="./imagens/mystery.jpg" alt=""></a>
+                                                </div>
+                                                <div id="fonte-1" class="media-body">
+                                                    <p class="m-1 ms-4">Vini</p>
+                                                    <p class="ms-3">Grupo</p>
+                                                </div>
+                                            </div>
 
-                        <div class="cardbox-item ">
-                            <img class="img-fluid" src="./imagens/caminhao2.jpg" alt="Image">
-                        </div>
-                        <!--/ cardbox-item -->
-                        <div class="cardbox-base ms-1 radiusborder  ">
-                            <ul class="float-right list-group list-group-horizontal ml-4  mt-4 radiusborder bg-black">
-                                <li class="list-group-item radiusborder border border-white bg-black colorwhite"><svg
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-                                    </svg>
 
-                                </li>
-                                <div class="tamicon colorwhite">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="ms-2 mt-2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
-                                    </svg>
-                                </div>
-                                </li>
-                            </ul>
-                            <br>
-                            <br>
-    </section>
+                                            <!--/ media -->
+                                        </div>
+
+
+
+
+                                
+
+
+
+
+                                        <!--/ cardbox-heading -->
+
+                                        <div class="cardbox-item ">
+                                            <div class="position-absolute">
+                                                <a href="" class="" >Crie um post
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="w-6 h-6">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+
+                                            <div><img class="img-fluid" src="./imagens/caminhao2.jpg" alt="Image"></div>
+                                            
+                                        </div>
+
+
+
+
+
+
+
+
+                                        <!--/ cardbox-item -->
+                                        <div class="cardbox-base ms-1 radiusborder  ">
+                                            <ul
+                                                class="float-right list-group list-group-horizontal ml-4  mt-4 radiusborder bg-black">
+                                                <li
+                                                    class="list-group-item radiusborder border border-white bg-black colorwhite">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="w-6 h-6">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
+                                                    </svg>
+
+                                                </li>
+                                                <div class="tamicon colorwhite">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="ms-2 mt-2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                                                    </svg>
+                                                </div>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <br>
+                    </section>
 
 </body>
 

@@ -21,7 +21,7 @@
                     required />
             </div>
 
-            {{-- <div class="mt-4">
+            <div class="mt-4">
                 <x-jet-label for="sexo" value="{{ __('Sexo') }}" />
                 <x-jet-input id="sexo" class="block mt-1 w-full" type="text" name="sexo" required />
             </div>
@@ -39,7 +39,7 @@
             <div class="mt-4">
                 <x-jet-label for="cnpj" value="{{ __('CNPJ') }}" />
                 <x-jet-input id="cnpj" class="block mt-1 w-full" type="text" name="cnpj" :value="old('cnpj')"  />
-            </div> --}}
+            </div>
 
             <div class="mt-4">
                 <x-jet-label for="password" value="{{ __('Password') }}" />
