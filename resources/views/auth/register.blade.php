@@ -11,22 +11,46 @@
 
             <div>
                 <x-jet-label for="name" value="{{ __('Name') }}" />
-                <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+                <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')"
+                    required autofocus autocomplete="name" />
             </div>
 
             <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')"
+                    required />
+            </div>
+
+            {{-- <div class="mt-4">
+                <x-jet-label for="sexo" value="{{ __('Sexo') }}" />
+                <x-jet-input id="sexo" class="block mt-1 w-full" type="text" name="sexo" required />
             </div>
 
             <div class="mt-4">
+                <x-jet-label for="cidade" value="{{ __('Cidade') }}" />
+                <x-jet-input id="cidade" class="block mt-1 w-full" type="text" name="cidade" :value="old('cidade')" required />
+            </div>
+            
+            <div class="mt-4">
+                <x-jet-label for="uf" value="{{ __('UF') }}" />
+                <x-jet-input id="uf" class="block mt-1 w-full" type="text" name="uf" :value="old('uf')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="cnpj" value="{{ __('CNPJ') }}" />
+                <x-jet-input id="cnpj" class="block mt-1 w-full" type="text" name="cnpj" :value="old('cnpj')"  />
+            </div> --}}
+
+            <div class="mt-4">
                 <x-jet-label for="password" value="{{ __('Password') }}" />
-                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
+                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required
+                    autocomplete="new-password" />
             </div>
 
             <div class="mt-4">
                 <x-jet-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
-                <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
+                <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password"
+                    name="password_confirmation" required autocomplete="new-password" />
             </div>
 
             @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
@@ -37,8 +61,18 @@
 
                             <div class="ml-2">
                                 {!! __('I agree to the :terms_of_service and :privacy_policy', [
-                                        'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Terms of Service').'</a>',
-                                        'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Privacy Policy').'</a>',
+                                    'terms_of_service' =>
+                                        '<a target="_blank" href="' .
+                                        route('terms.show') .
+                                        '" class="underline text-sm text-gray-600 hover:text-gray-900">' .
+                                        __('Terms of Service') .
+                                        '</a>',
+                                    'privacy_policy' =>
+                                        '<a target="_blank" href="' .
+                                        route('policy.show') .
+                                        '" class="underline text-sm text-gray-600 hover:text-gray-900">' .
+                                        __('Privacy Policy') .
+                                        '</a>',
                                 ]) !!}
                             </div>
                         </div>
